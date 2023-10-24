@@ -1,0 +1,2 @@
+# sumrandom
+static
