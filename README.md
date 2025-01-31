@@ -1,2 +1,0 @@
-# sumrandom
-static
