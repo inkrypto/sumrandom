@@ -56,15 +56,15 @@ $(window).load(function(){
 				googleMap()
 			content.tabs(n)
 		})
-		
+
 	function googleMap(){
 		if(googleMap.ready)
 			return false
 		googleMap.ready=true
 		var cssPath='.google_map'
 			,holder=$(cssPath)
-			,src='http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed'
-			,str='<iframe class="blo" width="'+holder.width()+'" height="'+holder.height()+'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+src+'"></iframe>'
+			,src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7990.791469636908!2d-122.2909448!3d38.3006836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085065c2ad1adc5%3A0x895b221609163711!2s1416%20Center%20St%2C%20Napa%2C%20CA%2094559!5e1!3m2!1sen!2sus!4v1738347903064!5m2!1sen!2sus'
+			,str='<iframe class="blo" width="'+holder.width()+'" height="'+holder.height()+'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'+src+'" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 		holder.html(str)
 	}
 	
