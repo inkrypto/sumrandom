@@ -1,65 +1,139 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coastal Oak Construction</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title></title>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='site/css/jquery.fancybox-1.3.4.css' rel='stylesheet' type='text/css'>
+<link href="site/css/style.css" rel="stylesheet" type="text/css" />
+<link href="site/css/grid.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="site/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="site/images/favicon.ico" type="image/x-icon" />
+<script src="site/js/jquery.min.js" type="text/javascript"></script>
+<script src="site/js/scripts.js" type="text/javascript"></script>
+<!--[if lt IE 8]>
+
+  <div class='alc' style=' clear: both; text-align:center; position: relative; z-index:9999;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://storage.ie6countdown.com/assets/100/site/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+ </div>
+<![endif]-->
+<!--[if lt IE 9]><script src="js/html5.js" type="text/javascript"></script><![endif]-->
+<!--[if IE]><link href="css/ie_style.css" rel="stylesheet" type="text/css" /><![endif]-->
 </head>
 <body>
-    <header>
-        <h1>Coastal Oak Construction</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Welcome to Coastal Oak Construction</h2>
-        <p>Specializing in kitchen and bathroom remodeling, we transform your spaces into beautiful and functional areas that meet your needs. Our team of experts is dedicated to delivering high-quality craftsmanship and exceptional service, ensuring that your renovation project exceeds your expectations.</p>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Located in the heart of downtown Napa, California, we take pride in our strong connections with many of the top wine manufacturers in the region. Our team is passionate about enhancing the beauty and functionality of homes in this vibrant community. With a commitment to quality and craftsmanship, we strive to create spaces that reflect the unique lifestyle and culture of Napa Valley.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Residential Remodeling</li>
-            <li>Commercial Construction</li>
-            <li>Kitchen Renovations</li>
-            <li>Bathroom Remodeling</li>
-            <li>Custom Home Builds</li>
-            <li>Backyard Dream Builds</li>
-        </ul>
-    </section>
-
-    <section id="gallery">
-        <h2>Our Work</h2>
-        <p>Check out some of our recent projects</p>
-        <img src="project1.jpg" alt="Project 1">
-        <img src="project2.jpg" alt="Project 2">
-        <img src="project3.jpg" alt="Project 3">
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to get in touch</p>
-        <p><strong>Name:</strong> Jason Brossard</p>
-        <p><strong>Address:</strong> 1416 Center Steet Napa, CA USA</p>
-        <p><strong>Phone:</strong> (123) 456-7890</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Construction & Remodeling Services. All rights reserved.</p>
-    </footer>
+<div id="gspinner"></div>
+<div id="glob">
+	<aside>
+		<h1><a href="#!/home"><img src="site/images/logo.png" alt="" /></a></h1>
+		<nav>
+			<ul>
+				<li><a href="#!/home">home<span></span></a></li>
+				<li><a href="#!/about_us">about us<span></span></a></li>
+				<li><a href="#!/services">services<span></span></a></li>
+				<li><a href="#!/contacts">contacts<span></span></a></li>
+			</ul>
+		</nav>
+		<div class="bg-thumbs">
+			<ul>
+				<li class="active"><a href="site/images/bg-1.jpg"><img src="site/images/bg-thumb-1.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-2.jpg"><img src="site/images/bg-thumb-2.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-3.jpg"><img src="site/images/bg-thumb-3.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-4.jpg"><img src="site/images/bg-thumb-4.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-5.jpg"><img src="site/images/bg-thumb-5.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-6.jpg"><img src="site/images/bg-thumb-6.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-7.jpg"><img src="site/images/bg-thumb-7.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-8.jpg"><img src="site/images/bg-thumb-8.jpg" alt="" /><span></span></a></li>
+				<li><a href="site/images/bg-9.jpg"><img src="site/images/bg-thumb-9.jpg" alt="" /><span></span></a></li>
+			</ul>
+		</div>
+	</aside>
+	<article id="content" class="container_8 ">
+		<ul>
+			<li id="about_us">
+				<div class="grid_6 prefix_1 alpha omega">
+					<h2>about us</h2>
+					<p class="bold">Nasceus mus. Nulla dui.  Fusce feugiat malesuada odio. <br>Scing elit. Mauris fermentum dictum gna. Sed laoreet aliquameo. </p>
+					<p>Ut us dolor, dapibus eget , elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat.Duis ac turpis. Integer rutrum ante eu uisque nulla. Vestibulum libero nisl, porta vel, scelerisqueeget. malea at, nequeivamus.</p>
+					<ul class="cols blo">
+						<li><img src="site/images/about-img-1.jpg" alt="" /></li>
+						<li><img src="site/images/about-img-2.jpg" alt="" /></li>
+						<li><img src="site/images/about-img-3.jpg" alt="" /></li>
+					</ul>
+					<a href="#!/readmore" class="bold white">read more</a>
+				</div>
+			</li>
+			<li id="services">
+				<div class="grid_6 prefix_1 alpha omega">
+					<h2>services overview</h2>
+					<ul class="imgs nocolor und">
+						<li><div><a href="site/images/image_blank_white.jpg"><img src="site/images/services-img-1.jpg" alt="" /></a><a href="#!/readmore"><br><strong>Nasceus mus. Nulla dui.  </strong></a><br>Visi et urna. Aliquam erattpat.</div></li>
+						<li><div><a href="site/images/image_blank_white.jpg"><img src="site/images/services-img-2.jpg" alt="" /></a><a href="#!/readmore"><br><strong>Nasceus mus. Nulla dui.  </strong></a><br>Visi et urna. Aliquam erattpat.</div></li>
+						<li><div><a href="site/images/image_blank_white.jpg"><img src="site/images/services-img-3.jpg" alt="" /></a><a href="#!/readmore"><br><strong>Nasceus mus. Nulla dui.  </strong></a><br>Visi et urna. Aliquam erattpat.</div></li>
+						<li><div><a href="site/images/image_blank_white.jpg"><img src="site/images/services-img-4.jpg" alt="" /></a><a href="#!/readmore"><br><strong>Nasceus mus. Nulla dui.  </strong></a><br>Visi et urna. Aliquam erattpat.</div></li>
+					</ul>
+				</div>				
+			</li>
+			<li id="contacts">
+				<div class="grid_6 prefix_1 alpha omega">
+					<h2>contact information</h2>
+					<div class="google_map"></div>
+					<ul class="cols">
+						<li>
+							<dl class="address">
+								<dt class="bold">8901 Marmora Road,<br>Glasgow, D04 89GR.</dt>
+								<dd><span>Freephone:</span>+1 800 559 6580</dd>
+								<dd><span>Telephone:</span>+1 800 603 6035</dd>
+								<dd><span>FAX:</span>+1 800 889 9898 </dd>
+								<dd><span>E-mail:</span> <a href="#" class="nocolor und">mail@demolink.org</a></dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="address">
+								<dt class="bold">9863 - 9867 Mill Road, <br>Cambridge, MG09 99HT.</dt>
+								<dd><span>Freephone:</span>+1 800 559 6580</dd>
+								<dd><span>Telephone:</span>+1 800 603 6035</dd>
+								<dd><span>FAX:</span>+1 800 889 9898 </dd>
+								<dd><span>E-mail:</span> <a href="#" class="nocolor und">mail@demolink.org</a></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li id="privacy">
+				<div class="grid_6 prefix_1 alpha omega">
+					<h2>privacy policy</h2>
+					<p><strong>Nasceus mus. Nulla dui.  Fusce feugiat malesuada odio. Scing elit. </strong><br>Dus dolor, dapibus eget , elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat.Duis ac turpis. Integer rutrum ante.</p>
+					<p><strong>Lea at, nequeivamus. Eget nibh. Etiam cursus leo vel metusulla lisi.</strong><br> Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus eters ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut sters pharetra augue nec augue. Nam elit magna, hendrerit.</p>
+					<p><strong>Nasceus mus. Nulla dui.  Fusce feugiat malesuada odio. Scing elit. </strong><br>Dus dolor, dapibus eget , elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat.Duis ac turpis. Integer rutrum.</p>
+					<p><strong>Lea at, nequeivamus. Eget nibh. Etiam cursus leo vel metusulla lisi.</strong><br> Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus eters ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut sters pharetra augue nec augue. Nam elit magna, hendrerit.</p>
+					<p><a href="#" class="nocolor">privacy@demolink.org</a></p>
+				</div>
+			</li>
+			<li id="readmore">
+				<div class="grid_6 prefix_1 alpha omega">
+					<h2>read more</h2>
+					<p><strong>Nasceus mus. Nulla dui.  Fusce feugiat malesuada odio. Scing elit. </strong><br>Dus dolor, dapibus eget , elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat.Duis ac turpis. Integer rutrum ante.</p>
+					<p><strong>Lea at, nequeivamus. Eget nibh. Etiam cursus leo vel metusulla lisi.</strong><br> Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus eters ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut sters pharetra augue nec augue. Nam elit magna, hendrerit.</p>
+					<p><strong>Nasceus mus. Nulla dui.  Fusce feugiat malesuada odio. Scing elit. </strong><br>Dus dolor, dapibus eget , elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat.Duis ac turpis. Integer rutrum.</p>
+					<p><strong>Lea at, nequeivamus. Eget nibh. Etiam cursus leo vel metusulla lisi.</strong><br> Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus eters ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut sters pharetra augue nec augue. Nam elit magna, hendrerit.</p>					
+				</div>
+			</li>
+		</ul>
+	</article>
+	<footer>
+		<pre class="privacy nocolor und">2012 &copy; <a href="#!/privacy">Privacy Policy</a><!-- {%FOOTER_LINK} --></pre>
+		<ul class="soc-ico">
+			<li><a href="#"><img src="site/images/facebook.png" alt="" /></a></li>
+			<li><a href="#"><img src="site/images/twitter.png" alt="" /></a></li>
+			<li><a href="#"><img src="site/images/picasa.png" alt="" /></a></li>
+		</ul>
+	</footer>
+</div>
+<div id="bgStretch"><img src="site/images/bg-1.jpg" alt="" /></div>
+<!--coded by pleazkin-->
 </body>
 </html>
