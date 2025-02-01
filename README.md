@@ -43,3 +43,6 @@ This website is deployed using DigitalOcean's App Platform, taking advantage of 
 7. Deploy!
 
 ## Local Development
+
+1. python -m http.server
+2. open http://localhost:8000
